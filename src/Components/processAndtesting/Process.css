@@ -1,0 +1,65 @@
+
+
+.ninjaline {
+    width: 70px;
+    border-bottom: 1px solid black;
+}
+
+.ninjastar {
+    font-size: 20px;
+}
+
+.side_star {
+    display: flex;
+    align-items: center;
+}
+
+.process {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.process_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description_process p {
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.description_process {}
+
+.duration {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.duration_down{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.description_small {
+    font-size: 11px;
+    text-align: center;
+}
+
+.description_duration_title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .process_title {
+        font-size: 1.5rem !important;
+    }
+}
