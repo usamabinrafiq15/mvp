@@ -1,0 +1,94 @@
+
+
+.ninjaline_details {
+    width: 70px;
+    border-bottom: 1px solid white;
+}
+
+.ninjastar_details {
+    font-size: 20px;
+    color: white;
+}
+
+.side_star {
+    display: flex;
+    align-items: center;
+}
+
+.process_details {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.process_title_details {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.description_process_details p {
+    margin-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.description_process_details{
+margin-bottom: 55px;
+}
+
+.description_process {}
+.box_logo{
+    position: relative;
+    color: #685b05;
+    /* opacity: .2; */
+    font-size: 65px;
+}
+.box_hex{
+    position: absolute;
+    color: #F4DD4B;
+    /* opacity: 1  !important; */
+    top: -5px;
+    left: 15px;
+    
+    z-index: 12;
+}
+.box_hex_inside{
+    position: relative;
+    transform:rotate(30deg);
+    font-size: 90px;
+
+}
+.inside_file{
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 40px;
+    left: 25px;
+    font-size: 40px;
+}
+.details_box{
+    background: #1A2129;
+    padding: 15px;
+    width: 332px !important;
+    margin: 20px;
+}
+.details_box_title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.details_box_description p {
+    margin-bottom: 0 !important;
+    color: white;
+}
+.details_branding_box{
+    margin-top: 1.2rem;
+}
+.row_down{
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

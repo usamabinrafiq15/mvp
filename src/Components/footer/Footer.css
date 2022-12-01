@@ -1,0 +1,54 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #bcbcbc;
+}
+.company_logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.footer_side{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.footer_things{
+margin-left: 100px;
+}
+.footer_title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    opacity: .7;
+}
+.sub_heading{
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 1rem 0rem;
+    color: white;
+}
+.copy_rights{
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 25px;
+    color: white;
+    opacity: .7;
+}
+.border_left{
+  margin-left: 20px;
+  border-left: 2px solid #BCBCBC;
+  padding: 0rem 1rem;
+}
+@media screen and (max-width: 1000px) {
+    .company_logo{
+        display: none;
+    }
+
+}
