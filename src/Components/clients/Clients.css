@@ -6,7 +6,9 @@
     align-items: center;
 
 }
-
+.clients_screen{
+  background:white;
+}
 
 .ninjaline_clients {
     width: 70px;

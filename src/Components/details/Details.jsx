@@ -1,13 +1,15 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { BsCircleFill, BsHexagon } from "react-icons/bs";
 import { GiStarShuriken } from "react-icons/gi";
 import { TbFileSpreadsheet } from "react-icons/tb";
 import "./Details.css";
+import hex from "../../assets/hex.svg";
 const Details = () => {
   return (
     <>
-      <div>
+        <div className="black_screen">
+          <Container>
         <div className=" process_details ">
           <div className="side_star">
             <div className="ninjastar_details">
@@ -33,7 +35,7 @@ const Details = () => {
         <div className="row_down">
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -41,7 +43,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+                <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -54,7 +57,7 @@ const Details = () => {
 
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -62,7 +65,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+              <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -75,7 +79,7 @@ const Details = () => {
 
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -83,7 +87,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+                <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -96,7 +101,7 @@ const Details = () => {
 
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -104,7 +109,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+                <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -117,7 +123,7 @@ const Details = () => {
 
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -125,7 +131,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+                <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -138,7 +145,7 @@ const Details = () => {
 
           <div className="details_box">
             <div className="box_logo">
-              <BsCircleFill />
+              {/* <BsCircleFill />
               <div className="box_hex">
                 <div className="box_hex_inside">
                   <BsHexagon />
@@ -146,7 +153,8 @@ const Details = () => {
                     <TbFileSpreadsheet />
                   </div>
                 </div>
-              </div>
+              </div> */}
+                <img  src={hex}/>
             </div>
             <div className="details_branding_box">
               <div className="details_box_title">Branding Identity</div>
@@ -157,6 +165,7 @@ const Details = () => {
             </div>
           </div>
         </div>
+    </Container>
       </div>
     </>
   );

@@ -13,58 +13,63 @@ import { Container } from "react-bootstrap";
 const Work = () => {
   return (
     <>
-      <div>
-        <div className=" process_work ">
-          <div className="side_star">
-            <div className="ninjastar_work">
-              <GiStarShuriken />
+      <div className="work_screen">
+        <Container>
+          <div>
+            <div className=" process_work ">
+              <div className="side_star">
+                <div className="ninjastar_work">
+                  <GiStarShuriken />
+                </div>
+                <div className="ninjaline_work ms-2"> </div>
+              </div>
+              <div className="process_title_work">Our Latest Works</div>
+              <div className="side_star">
+                <div className="ninjaline_work"> </div>
+                <div className="ninjastar_work ms-2">
+                  <GiStarShuriken />
+                </div>
+              </div>
             </div>
-            <div className="ninjaline_work ms-2"> </div>
-          </div>
-          <div className="process_title_work">Our Latest Works</div>
-          <div className="side_star">
-            <div className="ninjaline_work"> </div>
-            <div className="ninjastar_work ms-2">
-              <GiStarShuriken />
+            <div className="description_process_work">
+              <p>
+                {" "}
+                No one shall be subjected to arbitrary arrest, indepen impartial
+                t
+              </p>
+              <p> No one shall be subjected to indepen impartial t</p>
             </div>
           </div>
-        </div>
-        <div className="description_process_work">
-          <p>
-            {" "}
-            No one shall be subjected to arbitrary arrest, indepen impartial t
-          </p>
-          <p> No one shall be subjected to indepen impartial t</p>
-        </div>
-      </div>
-      <div>
-        {/* <Container> */}
-          <div className="projects ">
-            <div className="side1 row ">
-              <div className="image_box col-lg-6">
-                <img src={ui1} />
-              </div>
-              {/* <div className="box_empty"></div> */}
-              <div className="image_box col-lg-6 little_down">
-                <img src={ui2} />
-              </div>
-              <div className="image_box col-lg-6">
-                <img src={ui3} />
-              </div>
-              {/* </div>
+          <div>
+            {/* <Container> */}
+            <div className="projects ">
+              <div className="side1 row ">
+                <div className="image_box col-lg-6">
+                  <img src={ui1} />
+                </div>
+                {/* <div className="box_empty"></div> */}
+                <div className="image_box col-lg-6 little_down">
+                  <img src={ui2} />
+                </div>
+                <div className="image_box col-lg-6">
+                  <img src={ui3} />
+                </div>
+                {/* </div>
             <div className="side2 "> */}
-              <div className="image_box col-lg-6 little_down">
-                <img src={ui4} />
-              </div>
-              <div className="image_box col-lg-6">
-                <img src={ui5} />
-              </div>
-              <div className="image_box col-lg-6 little_down">
-                <img src={ui6} />
+                <div className="image_box col-lg-6 little_down">
+                  <img src={ui4} />
+                </div>
+                <div className="image_box col-lg-6">
+                  <img src={ui5} />
+                </div>
+                <div className="image_box col-lg-6 little_down">
+                  <img src={ui6} />
+                </div>
               </div>
             </div>
+            {/* </Container> */}
           </div>
-        {/* </Container> */}
+        </Container>
       </div>
     </>
   );

@@ -1,5 +1,7 @@
 
-
+ .white_screen {
+    background-color: #Fafafa;
+  }
 .ninjaline {
     width: 70px;
     border-bottom: 1px solid black;
@@ -25,6 +27,7 @@
 .process_title {
     font-size: 2rem;
     font-weight: bold;
+    color: #202020;
 }
 
 .description_process p {

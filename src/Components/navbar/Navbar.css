@@ -5,6 +5,16 @@
     
 
 }
+.nav_border {
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  .nav_color{
+    background-color: #28324B;
+  }
 .navbar__links{
     flex: 1;
     display: flex;
@@ -17,18 +27,29 @@
     font-weight: bold;
 }
 .navbar__pages{
-    color: white;
+    color: #fefefe;
     font-weight: bold;
 }
 .navbar__pages ul {
     list-style-type: none;
     display: flex;
+    align-items: center;
     margin: 0px;
 
+}
+.contact_btn{
+    padding:  15px 25px;
+    background-color: transparent;
+    border: 1px solid #fefefe;
+    border-radius: 25px;
 }
 .navbar__pages  li {
     margin-left: 60px;
     font-size: .8rem;
+    font-weight:500 ;
+    font-family: var(--figtree);
+    color: #DADADA;
+    /* letter-spacing: .5px; */
 }
 .navbar__right{
     display: flex;

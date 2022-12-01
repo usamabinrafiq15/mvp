@@ -6,6 +6,9 @@
     flex-wrap: wrap;
     border-bottom: 1px solid #bcbcbc;
 }
+.footer_screen{
+    background: #28324b;
+  }
 .company_logo{
     color: white;
     font-size: 2rem;
@@ -16,6 +19,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: white;
+    opacity: .7;
    
 }
 .footer_things{
@@ -24,8 +29,6 @@ margin-left: 100px;
 .footer_title{
     font-size: 1rem;
     font-weight: 500;
-    color: white;
-    opacity: .7;
 }
 .sub_heading{
     font-size: .8rem;

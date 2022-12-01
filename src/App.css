@@ -6,12 +6,21 @@
   }
 } */
 
+
+
+:root{
+  --figtree:'Figtree', sans-serif;
+  --fordescription:'Questrial', sans-serif;
+}
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Questrial', sans-serif; */
+  font-family: 'Figtree', sans-serif;
+
 
 }
 
@@ -23,54 +32,7 @@ body {
 /* .App{
   overflow: scroll;
 } */
-.gradient__bg {
-  /* background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-  background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
-  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%); */
-  background-image: url("./assets/bg1.jpg");
-  /* position: fixed; */
-  min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-  
-}
 
-.color-overlay {
-  /* position: relative; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.7;
-}
 
-.nav_border {
-  border-bottom: 1px solid;
-  position: sticky;
-  top: 0;
-  background-color: black;
-  z-index: 100;
-}
 
-.white_screen {
-  background-color: #F9F9F9;
-}
 
-.black_screen {
-  background-color: black;
-}
-
-.work_screen {
-  background-color: #F9F9F9;
-}
-.clients_screen{
-  background:white;
-
-}
-.footer_screen{
-  background: black;
-}

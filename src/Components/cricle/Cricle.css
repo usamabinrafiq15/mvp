@@ -30,7 +30,7 @@
   width: 34%;
   border: var(--border) solid black;
   border-radius: 50em;
-  border-color: rgb(247, 244, 102);
+  border-color: #f7f2d3;
   position: relative;
   z-index: 100;
   display: flex;
@@ -455,7 +455,7 @@ left: 16px !important;
   /* border-bottom: var(--triangleDownTop) solid transparent; */
   border-left: var(--triangleBorderLR) solid transparent;
   border-right: var(--triangleBorderLR) solid transparent;
-  border-top: var(--triangleBorderTopDownSide) solid black;
+  border-top: var(--triangleBorderTopDownSide) solid #28324B;
 }
 
 @keyframes load1 {
@@ -559,7 +559,7 @@ left: 16px !important;
   border-top: var(--triangleBorderTop) solid transparent;
   border-left: var(--triangleBorderLR) solid transparent;
   border-right: var(--triangleBorderLR) solid transparent;
-  border-bottom: var(--triangleBorderBottom) solid rgb(247, 201, 0);
+  border-bottom: var(--triangleBorderBottom) solid #F4DD4B;
 }
 
 .up_triangle1 {
@@ -678,7 +678,7 @@ left: 16px !important;
 .semi_cricle {
   border: var(--border) solid black;
   border-radius: 50em;
-  border-color: rgb(247, 244, 102) rgb(247, 244, 102) rgb(247, 201, 0) rgb(247, 201, 0);
+  border-color: #f7f2d3 #f7f2d3 #F4DD4B #F4DD4B;
   border-radius: 50em;
   transform: rotate(135deg);
 
@@ -804,7 +804,7 @@ left: 16px !important;
 .semi_cricle_reverse {
   border: var(--border) solid black;
   border-radius: 50em;
-  border-color: #000 #000 rgb(247, 244, 102) rgb(247, 244, 102);
+  border-color: #28324B #28324B  #f7f2d3 #f7f2d3;
   border-radius: 50em;
   position: relative;
   bottom: 125px;

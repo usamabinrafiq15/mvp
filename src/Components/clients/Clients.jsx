@@ -11,33 +11,35 @@ import { Container } from "react-bootstrap";
 const Clients = () => {
   return (
     <>
-      <div>
-        <div className=" process_clients ">
-          <div className="side_star">
-            <div className="ninjastar_clients">
-              <GiStarShuriken />
+      <div className="clients_screen">
+        <Container>
+          <div>
+            <div className=" process_clients ">
+              <div className="side_star">
+                <div className="ninjastar_clients">
+                  <GiStarShuriken />
+                </div>
+                <div className="ninjaline_clients ms-2"> </div>
+              </div>
+              <div className="process_title_clients">Our Latest Works</div>
+              <div className="side_star">
+                <div className="ninjaline_clients"> </div>
+                <div className="ninjastar_clients ms-2">
+                  <GiStarShuriken />
+                </div>
+              </div>
             </div>
-            <div className="ninjaline_clients ms-2"> </div>
-          </div>
-          <div className="process_title_clients">Our Latest Works</div>
-          <div className="side_star">
-            <div className="ninjaline_clients"> </div>
-            <div className="ninjastar_clients ms-2">
-              <GiStarShuriken />
+            <div className="description_process_clients">
+              <p>
+                {" "}
+                No one shall be subjected to arbitrary arrest, indepen impartial
+                t
+              </p>
+              <p> No one shall be subjected to indepen impartial t</p>
             </div>
           </div>
-        </div>
-        <div className="description_process_clients">
-          <p>
-            {" "}
-            No one shall be subjected to arbitrary arrest, indepen impartial t
-          </p>
-          <p> No one shall be subjected to indepen impartial t</p>
-        </div>
-      </div>
 
-   
-        {/* <div className="clients_logo">
+          {/* <div className="clients_logo">
           <div className="logos">
             <img src={cl1} width={120} height={120} />
           </div>
@@ -57,123 +59,124 @@ const Clients = () => {
             <img src={cl6} width={120} height={120} />
           </div>
         </div> */}
-        <div class="slider">
-          <div class="slide-track">
-            <div class="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
-                height="100"
-                width="250"
-                alt=""
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
-                height="100"
-                width="250"
-                alt=""
-              />
+          <div class="slider">
+            <div class="slide-track">
+              <div class="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png"
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-
+        </Container>
+      </div>
     </>
   );
 };

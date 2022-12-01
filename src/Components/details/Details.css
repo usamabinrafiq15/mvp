@@ -9,6 +9,9 @@
     font-size: 20px;
     color: white;
 }
+.black_screen{
+    background-color: #28324b ;
+}
 
 .side_star {
     display: flex;
@@ -69,19 +72,30 @@ margin-bottom: 55px;
     font-size: 40px;
 }
 .details_box{
-    background: #1A2129;
+    background: #28324B;
+    box-shadow: 0 1px 6px 0 rgba(92, 92, 92, 0.28);
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 15px;
     width: 332px !important;
     margin: 20px;
 }
 .details_box_title{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
-    color: white;
+    color: #fefefe;
+    margin-bottom: 12px;
+    text-align: center;
 }
 .details_box_description p {
     margin-bottom: 0 !important;
-    color: white;
+    color: #fefefe;
+    text-align: center;
+    font-weight: 300;
+    /* line-height: 1.3; */
 }
 .details_branding_box{
     margin-top: 1.2rem;

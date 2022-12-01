@@ -3,9 +3,19 @@ import "./Process.css";
 import { GiStarShuriken } from "react-icons/gi";
 import Cricle from "../cricle/Cricle";
 import { Col, Container, Row } from "react-bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+ 
+
+
 const Process = () => {
+  AOS.init();
   return (
     <>
+     <div className="white_screen" data-aos="fade-up" data-aos-delay="200">
+      <Container>
       <div className=" process ">
         <div className="side_star">
           <div className="ninjastar">
@@ -14,7 +24,7 @@ const Process = () => {
           <div className="ninjaline ms-2"> </div>
         </div>
         <div className="process_title">
-          Product Development Process & Testing.
+          Our processes and outcomes
         </div>
         <div className="side_star">
           <div className="ninjaline"> </div>
@@ -26,9 +36,9 @@ const Process = () => {
       <div className="description_process">
         <p>
           {" "}
-          No one shall be subjected to arbitrary arrest, indepen impartial t
+         It's simple, adaptable, and flexible which makes the developer's work easier.
         </p>
-        <p> No one shall be subjected to indepen impartial t</p>
+        <p> So delivery on time, everytime!</p>
       </div>
       <div className="circle_place">
         <div className="duration ">
@@ -106,7 +116,9 @@ const Process = () => {
           <div className="sub7 "></div>
         </div>
       </div>
-      <div>{/* <Cricle /> */}</div>
+      
+      </Container>
+      </div>
     </>
   );
 };
