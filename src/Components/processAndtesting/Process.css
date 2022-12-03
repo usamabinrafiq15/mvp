@@ -1,14 +1,15 @@
 
  .white_screen {
-    background-color: #Fafafa;
+    background-color: var(--bgWhite);
   }
 .ninjaline {
     width: 70px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--fontColor);
 }
 
 .ninjastar {
     font-size: 20px;
+    color: var(--fontColor);
 }
 
 .side_star {
@@ -27,13 +28,14 @@
 .process_title {
     font-size: 2rem;
     font-weight: bold;
-    color: #202020;
+    color: var(--fontColor);
 }
 
 .description_process p {
     margin-bottom: 0 !important;
     display: flex;
     justify-content: center;
+    color: var(--fontColor);
 }
 
 .description_process {}
@@ -58,12 +60,14 @@
 .description_small {
     font-size: 11px;
     text-align: center;
+    color: var(--fontColor);
 }
 
 .description_duration_title {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    color: var(--fontColor);
 }
 .days{
     font-size: 18px;
@@ -71,6 +75,7 @@
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 1rem;
+    color: var(--fontColor);
 }
 .days_down{
     font-size: 18px;
@@ -78,11 +83,13 @@
     text-align: center;
     padding-top: 1rem;
     padding-bottom: .5rem;
+    color: var(--fontColor);
 }
 #small{
     font-size: 12px;
     margin-left: 5px;
     font-weight: 500;
+    color: var(--fontColor);
     
 }
 .sub4{

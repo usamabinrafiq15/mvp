@@ -71,13 +71,13 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #28324B;
+    background-color: var(--fontColor);
     opacity: .9;
   }
 
 
 .header_section {
-    color: #fefefe;
+    color: var(--bgWhite);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@
 .center{
     text-align: center;
     margin-bottom: 0px !important;
-    color:   #F4DD4B ;
+    color:   var(--mvpYellow) ;
     line-height: .9;
 }
 .description {
@@ -129,8 +129,8 @@
 }
 
 .getstart {
-    background-color: #F4DD4B;
-    color: #28324B;
+    background-color:var(--mvpYellow);
+    color: var(--fontColor);
     padding: 15px 25px;
     border-radius: 25px;
     font-size: 14px;
@@ -154,8 +154,8 @@
     width: 1px;
     height: 1px;
     transform: rotate(45deg);
-    border-right: 2px solid #9095A1;
-    border-bottom: 2px solid #9095A1;
+    border-right: 2px solid var(--mouse);
+    border-bottom: 2px solid var(--mouse);
     margin: 0 0 4px 5px;
     width: 13px;
     height: 13px;
@@ -193,7 +193,7 @@
     width: 22px;
     border-radius: 14px;
     transform: none;
-    border: 2px solid #9095A1;
+    border: 2px solid var(--mouse);
     top: 170px;
 }
 
@@ -202,11 +202,11 @@
     width: 2px;
     display: block;
     margin: 5px auto;
-    background: #9095A1;
+    background: var(--mouse);
     position: relative;
     height: 4px;
     width: 4px;
-    border: 2px solid #9095A1;
+    border: 2px solid var(--mouse);
     -webkit-border-radius: 8px;
     border-radius: 8px;
 }

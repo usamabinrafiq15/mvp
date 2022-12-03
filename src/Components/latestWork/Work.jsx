@@ -46,24 +46,90 @@ const Work = () => {
               <div className="side1 row ">
                 <div className="image_box col-lg-6">
                   <img src={ui1} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
                 {/* <div className="box_empty"></div> */}
                 <div className="image_box col-lg-6 little_down">
                   <img src={ui2} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
                 <div className="image_box col-lg-6">
                   <img src={ui3} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
                 {/* </div>
-            <div className="side2 "> */}
+                 <div className="side2 "> */}
                 <div className="image_box col-lg-6 little_down">
                   <img src={ui4} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
                 <div className="image_box col-lg-6">
                   <img src={ui5} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
                 <div className="image_box col-lg-6 little_down">
                   <img src={ui6} />
+                  <div className="project_hover">
+                    <div className="bold_letter">
+                      {" "}
+                      E-commerce . ui/ux . website
+                    </div>
+                    <div className="bold_letter1">UI UX</div>
+                    <a href="#" className="link_btn">
+                      {" "}
+                      VIEW PROJECT{" "}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

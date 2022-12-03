@@ -7,17 +7,17 @@
 
 }
 .clients_screen{
-  background:white;
+  background: var(--bgWhite);
 }
 
 .ninjaline_clients {
     width: 70px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--fontColor);
 }
 
 .ninjastar_clients {
     font-size: 20px;
-    
+    color: var(--fontColor);
 }
 
 .side_star {
@@ -28,14 +28,14 @@
 .process_title_clients {
     font-size: 2rem;
     font-weight: bold;
-   
+    color: var(--fontColor);
 }
 
 .description_process_clients p {
     margin-bottom: 0 !important;
     display: flex;
     justify-content: center;
-  
+    color: var(--fontColor);
 }
 .description_process_clients{
 padding-bottom: 55px;

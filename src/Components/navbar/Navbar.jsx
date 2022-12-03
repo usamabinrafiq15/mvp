@@ -11,7 +11,7 @@ const Menu = () => {
         <li> Services</li>
         <li> Projects</li>
         <li> About</li>
-        <li className="contact_btn"> Contact Us</li>
+        <li ><span className="contact_btn"> Contact Us</span></li>
       </ul>
     </>
   );

@@ -8,11 +8,11 @@
 }
 
 .work_screen {
-    background-color: #F9F9F9;
+    background-color: var(--bgWhite);
   }
 .ninjaline_work {
     width: 70px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--fontColor);
 }
 
 .ninjastar_work {
@@ -36,14 +36,14 @@
 .process_title_work {
     font-size: 2rem;
     font-weight: bold;
-    color: black;
+    color: var(--fontColor);
 }
 
 .description_process_work p {
     margin-bottom: 0 !important;
     display: flex;
     justify-content: center;
-    color: black;
+    color: var(--fontColor);
 }
 .description_process_work{
 margin-bottom: 55px;
@@ -70,7 +70,9 @@ margin-bottom: 55px;
    /* padding: 20px;
    margin:  10px; */
    display: flex;
+   flex-direction: column;
    justify-content: center;
+   position: relative;
  
 }
 .little_down{
@@ -80,13 +82,57 @@ margin-bottom: 55px;
     width: 495px;
     height: 300px;
     /* box-shadow: inset 0 0 25px #DADADA !important; */
-    border: 25px solid #DADADA;
+    /* border: 25px solid #DADADA; */
+}
+.image_box img:hover {
+   
+transform: scale(1.1);
+transition: .5s ease;
+  
+}
+.image_box img:hover + .project_hover {
+ display: block;
+ z-index: 999;
+ position: absolute;
+ bottom: 31px;
+ /* width: 495px;
+    height: 300px;
+ background-color: black;
+ opacity: .7; */
+}
+.project_hover{
+    display: none;
+  
+}
+.bold_letter{
+    font-weight: bold;
+    font-size: .8rem;
+    color: var(--bgWhite);
+    padding-left: 20px;
+}
+.bold_letter1{
+    font-weight: bold;
+    font-size: .8rem;
+    color: var(--bgWhite);
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
 .image_box2{
     margin-top: 100px !important;
     background: #DADADA;
     margin:  10px;
     
+ }
+ .link_btn{
+    background-color: var(--mvpYellow);
+    padding: 15px 25px ;
+
+    font-size: .8rem;
+    font-weight: 700;
+  
+    cursor: pointer;
+    color: var(--fontColor);
+    text-decoration: none;
  }
 .projects{
     display: flex;

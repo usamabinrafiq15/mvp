@@ -11,6 +11,11 @@
 :root{
   --figtree:'Figtree', sans-serif;
   --fordescription:'Questrial', sans-serif;
+  --fontColor: #28324b;
+  --mvpYellow: #f4dd4b;
+  --bgWhite: #fefefe;
+  --black: #202020;
+  --mouse: #9095A1;
 }
 * {
   box-sizing: border-box;
@@ -24,14 +29,9 @@
 
 }
 
-body {
-  background-color: var(--color-bg);
 
-}
 
-/* .App{
-  overflow: scroll;
-} */
+
 
 
 
