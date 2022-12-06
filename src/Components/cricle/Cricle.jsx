@@ -19,7 +19,8 @@ const Cricle = () => {
               </div>
             </div>
             <div className="desktop"> Step 1 </div>
-            <div className="mobile"> Step 1 </div>
+            <div className="tab"> Step 1 </div>
+            <div className="mobile"> 1 - 15 Days </div>
           </div>
           <div className="circ  c2">
             <div className="part">
@@ -33,7 +34,8 @@ const Cricle = () => {
               </div>
             </div>
             <div className="desktop"> Step 2 </div>
-            <div className="mobile"> Step 2</div>
+            <div className="tab"> Step 2 </div>
+            <div className="mobile"> 1 - 40 Days </div>
           </div>
 
           <div className="circ  c3">
@@ -48,7 +50,8 @@ const Cricle = () => {
               </div>
             </div>
             <div className="desktop"> Step 3 </div>
-            <div className="mobile"> Step 3 </div>
+            <div className="tab"> Step 3 </div>
+            <div className="mobile"> 1 - 100 Days </div>
           </div>
           <div className="circ   c4">
             <div className="part">
@@ -62,7 +65,8 @@ const Cricle = () => {
               </div>
             </div>
             <div className="desktop"> Step 4 </div>
-            <div className="mobile"> Step 4 </div>
+            <div className="tab"> Step 4 </div>
+            <div className="mobile"> 1 -25 Days </div>
           </div>
           <div className="circ  c5">
             <div className="part">
@@ -76,7 +80,8 @@ const Cricle = () => {
               </div>
             </div>
             <div className="desktop"> Step 5 </div>
-            <div className="mobile"> Step 5 </div>
+            <div className="tab"> Step 5 </div>
+            <div className="mobile"> 1 -75 Days </div>
           </div>
           {/* <div className="circ  c6">
             <div className="part">

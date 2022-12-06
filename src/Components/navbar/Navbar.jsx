@@ -3,7 +3,8 @@ import "./Navbar.css";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Container } from "react-bootstrap";
 import company_logo from "../../assets/logo_yellow.svg";
-
+import company_logo_mobile from "../../assets/logo_yellow_mobile.svg";
+import company_logo_tab from "../../assets/logo_yellow_tab.svg";
 const Menu = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (window.scrollY >= 500) {
+    if (window.scrollY >= 120) {
       setColor(true);
     } else {
       setColor(false);
@@ -37,7 +38,9 @@ const Navbar = () => {
           <div className="navbar">
             <div className="navbar__links">
               <div className="navbar__logo"> 
-              <img src={company_logo} />
+              <img src={company_logo} className="logo"/>
+              <img src={company_logo_mobile} className="mobile_logo"/>
+              <img src={company_logo_tab} className="tab_logo"/>
               </div>
               <div className="navbar__right">
                 <div className="navbar__pages">
@@ -47,11 +50,13 @@ const Navbar = () => {
                   {toggleMenu ? (
                     <RiCloseLine
                       color="#fff"
+                      className="toggle"
                       onClick={() => setToggleMenu(false)}
                     />
                   ) : (
                     <RiMenu3Line
                       color="#fff"
+                      className="toggle"
                       onClick={() => setToggleMenu(true)}
                     />
                   )}

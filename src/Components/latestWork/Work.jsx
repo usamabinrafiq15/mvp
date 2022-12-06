@@ -1,8 +1,8 @@
 import React from "react";
 import { GiStarShuriken } from "react-icons/gi";
 import "./Work.css";
-import ui1 from "../../assets/ui1.jpg";
-import ui2 from "../../assets/ui2.jpg";
+import ui1 from "../../assets/giveindia.png";
+import ui2 from "../../assets/impactree.jpeg";
 import ui3 from "../../assets/ui3.jpg";
 import ui4 from "../../assets/ui4.jpg";
 import ui5 from "../../assets/ui5.jpg";
@@ -42,93 +42,130 @@ const Work = () => {
           </div>
           <div>
             {/* <Container> */}
-            <div className="projects ">
-              <div className="side1 row ">
-                <div className="image_box col-lg-6">
-                  <img src={ui1} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
+            <div className="projects row demo-preview">
+              <div className="col">
+                <div className=" row ">
+                {/* <div classNam="demo-column text-center wow fadeInUp" style={{visibility: "visible" }}>
+                        <div className="thumb-container">
+                            <img src="https://html.themexriver.com/Archix/demo/assets/images/pages/hm1.png" alt=""/>
+                            <div className="thumb-btn-group">
+                                <div className="thumb-btns">
+                                    <a href="index-1.html" target="_blank">Visit Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="thumb-title">
+                            <h4><a href="index-1.html" target="_blank">Home 1</a></h4>
+                        </div>
+                    </div> */}
+                  <div className="side1">
+                    <div className="image_box   mb-5 col"  >
+                      <div className="overflow-hidden position-relative  over ">
+                        <img src={ui1} />
+                        {/* <div class="kd-overlay builg" style={{backgroundColor:"rgba(10,10,10,0.4)"}}></div> */}
+
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                         Donation Paltfrom
+                          </div>
+                          <div className="bold_letter1">NO CODE</div>
+                          <a href="" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                          {/* <span className="link_btn"> VIEW PROJECT </span> */}
+                        </div>
+                      </div>
                     </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
+
+                    <div className="image_box col mb-5 ">
+                      <div className="overflow-hidden position-relative over">
+                        <img src={ui2} />
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                           Analytics platfrom
+                          </div>
+                      S    <div className="bold_letter1">WEB AND MOBILE DEVLOPMENT</div>
+                          <a href="#" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    {/* <div className="image_box col mb-5">
+                      <div className="overflow-hidden position-relative over">
+                        <img src={ui3} />
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                            E-commerce . ui/ux . website
+                          </div>
+                          <div className="bold_letter1">UI UX</div>
+                          <a href="#" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div> */}
                   </div>
                 </div>
-                {/* <div className="box_empty"></div> */}
-                <div className="image_box col-lg-6 little_down">
-                  <img src={ui2} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
+              </div>
+              <div className="col">
+                <div className=" row ">
+                  <div className="side2">
+                  <div className="image_box mb-5 col">
+                      <div className="overflow-hidden position-relative over">
+                        <img src={ui4} />
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                            E-commerce . ui/ux . website
+                          </div>
+                          <div className="bold_letter1">UI UX</div>
+                          <a href="" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                          {/* <span className="link_btn"> VIEW PROJECT </span> */}
+                        </div>
+                      </div>
                     </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
-                  </div>
-                </div>
-                <div className="image_box col-lg-6">
-                  <img src={ui3} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
+                    <div className="image_box col mb-5">
+                      <div className="overflow-hidden position-relative over">
+                        <img src={ui5} />
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                            E-commerce . ui/ux . website
+                          </div>
+                          <div className="bold_letter1">UI UX</div>
+                          <a href="#" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                        </div>
+                      </div>
                     </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
-                  </div>
-                </div>
-                {/* </div>
-                 <div className="side2 "> */}
-                <div className="image_box col-lg-6 little_down">
-                  <img src={ui4} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
-                    </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
-                  </div>
-                </div>
-                <div className="image_box col-lg-6">
-                  <img src={ui5} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
-                    </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
-                  </div>
-                </div>
-                <div className="image_box col-lg-6 little_down">
-                  <img src={ui6} />
-                  <div className="project_hover">
-                    <div className="bold_letter">
-                      {" "}
-                      E-commerce . ui/ux . website
-                    </div>
-                    <div className="bold_letter1">UI UX</div>
-                    <a href="#" className="link_btn">
-                      {" "}
-                      VIEW PROJECT{" "}
-                    </a>
+                    {/* <div className="image_box col mb-5">
+                      <div className="overflow-hidden position-relative over">
+                        <img src={ui6} />
+                        <div className="project_hover">
+                          <div className="bold_letter">
+                            {" "}
+                            E-commerce . ui/ux . website
+                          </div>
+                          <div className="bold_letter1">UI UX</div>
+                          <a href="#" className="link_btn">
+                            {" "}
+                            VIEW PROJECT{" "}
+                          </a>
+                        </div>
+                      </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

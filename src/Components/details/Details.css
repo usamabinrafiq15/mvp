@@ -106,3 +106,26 @@ margin-bottom: 55px;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media only screen and (max-width: 568px) {
+
+
+    .process_title_details {
+        font-size: 1rem !important;
+    }
+    .ninjaline_details {
+        width: 30px;
+    
+    }
+    .ninjastar_details {
+        font-size: 15px;
+    }
+    .description_process_details p{
+        font-size: 10px;
+    }
+    .process{
+        padding-top: 3rem ;
+        padding-bottom: 1rem ;
+    }
+
+}

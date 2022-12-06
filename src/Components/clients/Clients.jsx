@@ -1,9 +1,9 @@
 import React from "react";
 import { GiStarShuriken } from "react-icons/gi";
 import "./Clients.css";
-import cl1 from "../../assets/cl1.png";
-import cl2 from "../../assets/cl2.png";
-import cl3 from "../../assets/cl3.png";
+import cl1 from "../../assets/givelogo.png";
+import cl2 from "../../assets/trew.png";
+import cl3 from "../../assets/impactree.png";
 import cl4 from "../../assets/cl4.png";
 import cl5 from "../../assets/cl5.png";
 import cl6 from "../../assets/cl6.png";
@@ -21,7 +21,7 @@ const Clients = () => {
                 </div>
                 <div className="ninjaline_clients ms-2"> </div>
               </div>
-              <div className="process_title_clients">Our Latest Works</div>
+              <div className="process_title_clients">We Worked With</div>
               <div className="side_star">
                 <div className="ninjaline_clients"> </div>
                 <div className="ninjastar_clients ms-2">
@@ -63,21 +63,85 @@ const Clients = () => {
             <div class="slide-track">
               <div class="slide">
                 <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png"
-                  height="100"
+                  src={cl1}
+                  height="50"
                   width="250"
                   alt=""
                 />
               </div>
               <div className="slide">
                 <img
-                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png"
+                    src={cl2}
                   height="100"
                   width="250"
                   alt=""
                 />
               </div>
+              <div class="slide">
+                <img
+                  src={cl1}
+                  height="50"
+                  width="250"
+                  alt=""
+                />
+              </div>
               <div className="slide">
+                <img
+                    src={cl2}
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src={cl1}
+                  height="50"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                    src={cl2}
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src={cl1}
+                  height="50"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                    src={cl2}
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div class="slide">
+                <img
+                  src={cl1}
+                  height="50"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              <div className="slide">
+                <img
+                    src={cl2}
+                  height="100"
+                  width="250"
+                  alt=""
+                />
+              </div>
+              {/* <div className="slide">
                 <img
                   src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png"
                   height="100"
@@ -173,6 +237,7 @@ const Clients = () => {
                   alt=""
                 />
               </div>
+            </div> */}
             </div>
           </div>
         </Container>

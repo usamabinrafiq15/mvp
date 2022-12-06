@@ -8,164 +8,121 @@ import hex from "../../assets/hex.svg";
 const Details = () => {
   return (
     <>
-        <div className="black_screen">
-          <Container>
-        <div className=" process_details ">
-          <div className="side_star">
-            <div className="ninjastar_details">
-              <GiStarShuriken />
+      <div className="black_screen">
+        <Container>
+          <div className=" process_details ">
+            <div className="side_star">
+              <div className="ninjastar_details">
+                <GiStarShuriken />
+              </div>
+              <div className="ninjaline_details ms-2"> </div>
             </div>
-            <div className="ninjaline_details ms-2"> </div>
-          </div>
-          <div className="process_title_details">Why Choose Us.</div>
-          <div className="side_star">
-            <div className="ninjaline_details"> </div>
-            <div className="ninjastar_details ms-2">
-              <GiStarShuriken />
-            </div>
-          </div>
-        </div>
-        <div className="description_process_details">
-          <p>
-            {" "}
-            No one shall be subjected to arbitrary arrest, indepen impartial t
-          </p>
-          <p> No one shall be subjected to indepen impartial t</p>
-        </div>
-        <div className="row_down">
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
-                  </div>
-                </div>
-              </div> */}
-                <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
+            <div className="process_title_details">Why Choose Us.</div>
+            <div className="side_star">
+              <div className="ninjaline_details"> </div>
+              <div className="ninjastar_details ms-2">
+                <GiStarShuriken />
               </div>
             </div>
           </div>
-
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
+          <div className="description_process_details">
+            <p>
+              {" "}
+              No one shall be subjected to arbitrary arrest, indepen impartialt
+            </p>
+            <p> No one shall be subjected to indepen impartial t</p>
+          </div>
+          <div className="row_down">
+            <Row>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
                   </div>
                 </div>
-              </div> */}
-              <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
+              </Col>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
                   </div>
                 </div>
-              </div> */}
-                <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
+              </Col>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
                   </div>
                 </div>
-              </div> */}
-                <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
                   </div>
                 </div>
-              </div> */}
-                <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="details_box">
-            <div className="box_logo">
-              {/* <BsCircleFill />
-              <div className="box_hex">
-                <div className="box_hex_inside">
-                  <BsHexagon />
-                  <div className="inside_file">
-                    <TbFileSpreadsheet />
+              </Col>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
                   </div>
                 </div>
-              </div> */}
-                <img  src={hex}/>
-            </div>
-            <div className="details_branding_box">
-              <div className="details_box_title">Branding Identity</div>
-              <div className="details_box_description">
-                <p>No one shall be subjected</p>
-                <p>No one shall be subjected shall</p>
-              </div>
-            </div>
+              </Col>
+              <Col>
+                <div className="details_box">
+                  <div className="box_logo">
+                    <img src={hex} />
+                  </div>
+                  <div className="details_branding_box">
+                    <div className="details_box_title"> Lorem ipsum dolor</div>
+                    <div className="details_box_description">
+                      <p> Lorem ipsum dolor sit amet </p>
+                      <p>Perferendis mollitia fugit aliquam, atque</p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
           </div>
-        </div>
-    </Container>
+        </Container>
       </div>
     </>
   );

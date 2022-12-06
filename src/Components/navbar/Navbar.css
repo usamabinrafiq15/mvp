@@ -26,6 +26,12 @@
     color: white;
     font-weight: bold;
 }
+.mobile_logo{
+   display: none;
+}
+.tab_logo{
+    display: none;
+  }
 .navbar__pages{
     color: #fefefe;
     font-weight: bold;
@@ -131,11 +137,43 @@ cursor: pointer;
 .navbar__mobile_menu_links_drop ul li:hover{
     color: var(--mvpYellow);
    }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .navbar__pages{
         display: none;
     }
     .navbar__mobile_menu{
         display: flex;
     }
+    .mobile_logo{
+        display: none;
+     }
+  .logo{
+    display: none;
+  }
+  .tab_logo{
+    display: block;
+  }
+  .navbar__links{
+    padding-right: 15px;
+}
+.toggle{
+    font-size: 22px;
+}
+}
+@media screen and  (max-width: 500px){
+    .mobile_logo{
+        display: block;
+     }
+  .logo{
+    display: none;
+  }
+  .tab_logo{
+    display: none;
+  }
+  .navbar__links{
+    padding: 15px 15px;
+}
+.toggle{
+    font-size: 15px;
+}
 }
