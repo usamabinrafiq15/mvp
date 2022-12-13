@@ -21,14 +21,16 @@
     display: flex;
     justify-content: space-between;
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     align-items: center;
 }
 
 .process_title {
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-size: 2rem; */
+    font-size: 36px;
+    font-weight: 900;
     color: var(--fontColor);
+    font-family: var(--figtree);
 }
 
 .description_process p {
@@ -36,6 +38,8 @@
     display: flex;
     justify-content: center;
     color: var(--fontColor);
+    font-size: 18px;
+    font-family: var(--fordescription);
 }
 
 .description_process {}
@@ -59,34 +63,39 @@
 }
 
 .description_small {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
     color: var(--fontColor);
+    font-family: var(--fordescription);
 }
 
 .description_duration_title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
+    margin-bottom: 8px;
     color: var(--fontColor);
+    font-family: var(--figtree);
 }
 
 .days {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 1rem;
     color: var(--fontColor);
+    font-family: var(--figtree);
 }
 
 .days_down {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: .5rem;
     color: var(--fontColor);
+    font-family: var(--figtree);
 }
 
 #small {
@@ -94,6 +103,7 @@
     margin-left: 5px;
     font-weight: 500;
     color: var(--fontColor);
+    font-family: var(--figtree);
 
 }
 

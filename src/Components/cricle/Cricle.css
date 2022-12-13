@@ -84,9 +84,11 @@
     } */
 .mobile {
   display: none;
+  font-family: var(--figtree);
 }
 .tab {
   display: none;
+  font-family: var(--figtree);
 }
 
 @media (max-width: 1400px) {
@@ -275,6 +277,7 @@
 }
 .tab {
   display: none !important;
+  
 }
 .mobile {
   display: block;
@@ -409,7 +412,9 @@ left: 16px !important;
   }
 
   .desktop {
+    font-weight: 900;
     display: none;
+    font-family: var(--figtree);
   }
   .side_place{
     padding: 4rem 0rem;
@@ -615,8 +620,8 @@ left: 16px !important;
 }
 
 .down_triangle2 {
-  animation: load2 2s linear 1;
-  animation-delay: 2.7s;
+  animation: load2 2s linear 1 !important;
+  animation-delay: 2.7s !important;
 }
 
 .load-down2::before {

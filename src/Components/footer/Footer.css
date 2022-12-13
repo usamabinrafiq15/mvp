@@ -31,18 +31,19 @@ margin-left: 100px;
     font-weight: 500;
 }
 .sub_heading{
-    font-size: .8rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: 1rem 0rem;
     color: white;
 }
 .copy_rights{
-    font-size: .8rem;
+    font-size: 1rem;
     text-align: center;
-    font-weight: 700;
+    /* font-weight: 700; */
     padding: 25px;
     color: var(--bgWhite);
     opacity: .7;
+    font-family: var(--figtree);
 }
 .border_left{
   margin-left: 20px;

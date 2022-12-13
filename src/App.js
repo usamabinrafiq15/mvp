@@ -9,11 +9,13 @@ import Details from "./Components/details/Details";
 import Work from "./Components/latestWork/Work";
 import Clients from "./Components/clients/Clients";
 import Footer from "./Components/footer/Footer";
+import Mouse from "./Components/mouse/Mouse";
 
 function App() {
   return (
     <React.Fragment>
-      <div className="App">
+      <div className="App ">
+    
         <Navbar />
         <Header />
         <Process />

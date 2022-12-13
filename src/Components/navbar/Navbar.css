@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0px;
+    padding: 15px 50px;
 }
 .navbar__logo{
     color: white;
@@ -44,25 +44,33 @@
 
 }
 .contact_btn{
-    padding:  15px 25px;
-    background-color: transparent;
-    border: 1px solid var(--bgWhite);
-    border-radius: 25px;
+  padding:  20px 20px;
+    font-weight:bold ;
 }
 .contact_btn:hover{
 background-color: var(--mvpYellow);
 color: var(--fontColor);
+border-radius: 20px;
 font-weight: bold;
-border: none;
+padding:  20px 20px;
+/* border: 1px solid var(--mvpYellow); */
 }
 .navbar__pages  li {
-    margin-left: 60px;
-    font-size: .8rem;
-    font-weight:500 ;
+    margin-left: 50px;
+    /* font-size: 1rem; */
+    font-size: 14px;
+    font-weight:600 ;
     font-family: var(--figtree);
     color: #DADADA;
     /* letter-spacing: .5px; */
 }
+
+.navbar__pages  li:hover {
+color: var(--mvpYellow);
+}
+
+
+
 .navbar__right{
     display: flex;
 }
@@ -132,7 +140,7 @@ cursor: pointer;
 
 
 .navbar__mobile_menu_links_drop ul li{
- padding-bottom: 80px;
+ padding-bottom: 50px;
 }
 .navbar__mobile_menu_links_drop ul li:hover{
     color: var(--mvpYellow);
@@ -157,7 +165,7 @@ cursor: pointer;
     padding-right: 15px;
 }
 .toggle{
-    font-size: 22px;
+    font-size: 24px;
 }
 }
 @media screen and  (max-width: 500px){
@@ -171,9 +179,9 @@ cursor: pointer;
     display: none;
   }
   .navbar__links{
-    padding: 15px 15px;
+    padding: 0px 15px;
 }
 .toggle{
-    font-size: 15px;
+    font-size: 24px;
 }
 }

@@ -15,7 +15,8 @@
   --mvpYellow: #f4dd4b;
   --bgWhite: #fefefe;
   --black: #202020;
-  --mouse: #9095A1;
+  /* --mouse: #9095A1; */
+  --mouse:  #f4dd4b60;
 }
 * {
   box-sizing: border-box;
@@ -30,6 +31,10 @@
 Container{
   margin: 0% !important;
 }
+/* .App{
+  position: relative;
+} */
+
 
 
 

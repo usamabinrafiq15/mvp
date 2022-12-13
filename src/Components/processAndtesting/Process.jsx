@@ -10,7 +10,10 @@ const Process = () => {
   AOS.init();
   return (
     <>
-      <div className="white_screen" data-aos="fade-up" data-aos-delay="200">
+      <div
+        className="white_screen"
+        // data-aos="fade-up" data-aos-delay="200"
+      >
         <Container>
           <div className=" process ">
             <div className="side_star">
@@ -19,7 +22,7 @@ const Process = () => {
               </div>
               <div className="ninjaline ms-2"> </div>
             </div>
-            <div className="process_title">Our processes and outcomes</div>
+            <div className="process_title">Our Processes and Outcomes</div>
             <div className="side_star">
               <div className="ninjaline"> </div>
               <div className="ninjastar ms-2">
@@ -145,10 +148,6 @@ const Process = () => {
             <div className="tablet_view">
               <Cricle />
             </div>
-
-
-
-
 
             <div className="duration_down ">
               <div className="sub6 "></div>

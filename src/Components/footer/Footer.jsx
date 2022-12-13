@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="footer_things">
                 <div className="sub_heading">FAQ</div>
                 <div className="sub_heading">HELP</div>
-                <div className="sub_heading">CONTACT US</div>
+                {/* <div className="sub_heading">CONTACT US</div> */}
               </div>
               <div className="footer_things">
                 <div className="sub_heading">ABOUT</div>

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     align-items: center;
     color: black;
 }
@@ -24,6 +24,9 @@
     display: flex;
     align-items: center;
 }
+.work_top{
+    padding-top: 5rem;
+}
 
 .process_details {
     display: flex;
@@ -34,33 +37,26 @@
 }
 
 .process_title_work {
-    font-size: 2rem;
-    font-weight: bold;
+    /* font-size: 2rem; */
+    font-size: 36px;
+    font-weight: 900;
     color: var(--fontColor);
 }
 
 .description_process_work p {
     margin-bottom: 0 !important;
     display: flex;
+    font-size: 18px;
     justify-content: center;
     color: var(--fontColor);
+    font-weight: 400;
+    font-family: var(--fordescription);
 }
-.description_process_work{
-margin-bottom: 55px;
-}
+
 @media screen and (max-width: 1200px) {
-    .image_box img {
-        width: 400px !important;
-        height: 250px !important;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .projects{
-        display: flex;
-        flex-wrap: wrap !important;
-    }
    
 }
+
 
 @media only screen and (max-width: 568px) {
 
@@ -84,43 +80,25 @@ margin-bottom: 55px;
 
 
 
-/* .box_empty{
-    width: 495px;
-    height: 100px;
-} */
-.image_box{
-   /* background: #DADADA; */
-   /* padding: 20px;
-   margin:  10px; */
-   display: flex;
-   /* flex-direction: column; */
-   justify-content: center;
-   position: relative;
-   overflow: hidden;
- 
-}
-.little_down{
-    margin-top: 40px !important;
-}
-.image_box .over img {
-    width: 495px;
-    height: 300px;
-    /* box-shadow: inset 0 0 25px #DADADA !important; */
-    /* border: 25px solid #DADADA; */
-    background-size: cover;
-    background-position: center;
+.image_box_grid img {
+   width: 100%;
+   height: 100%;
+   vertical-align: middle;
+   display: inline-block;
+   object-fit: cover;
 }
 
-.image_box .over img:hover {
+
+.forhover .over img:hover {
 transform: scale(1.1);
 transition: .5s ease;
 }
 
-.image_box .over:hover:before {
-    opacity: .7;
+.forhover .over:hover:before {
+    opacity: .5;
 }
 
-.image_box .over::before{
+.forhover .over::before{
     top: 0;
     left: 0;
     width: 100%;
@@ -129,59 +107,48 @@ transition: .5s ease;
     opacity: 0;
     position: absolute;
     background-color: #000;
-    /* transform: translate(100%); */
     transition: 500ms all ease;
 }
- .image_box .over:hover .project_hover {
+ .forhover .over:hover .project_hover {
     
     visibility: visible;
     opacity: 1;
-    top: 71%;
-}
-  /* .slide-fwd-center{
-    animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both
+    bottom: 4%;
 }
 
- @keyframes slide-fwd-center {
-    0% {
-      transform: translateZ(0);
-    }
-    100% {
-      transform: translateZ(160px);
-    }
-  } */
-   /* .image_box:hover .over { transform: translateY(-10px); } */
 
- .image_box .over .project_hover{
- visibility: hidden;
+ .forhover .over .project_hover{
+    visibility: hidden;
     z-index: 1;
     position: absolute;
     bottom: 15px;
+    /* top: 40%;
+    left: 40%; */
 }
 .bold_letter{
     font-weight: bold;
     font-size: .8rem;
     color: var(--bgWhite);
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    text-align: center;
 }
 .bold_letter1{
     font-weight: bold;
     font-size: .8rem;
     color: var(--bgWhite);
-    padding-left: 20px;
-    padding-bottom: 15px;
+    /* padding-left: 20px; */
+    text-align: center;
+    padding-bottom: 20px;
 }
-.image_box2{
-    margin-top: 100px !important;
-    background: #DADADA;
-    margin:  10px;
-    
- }
+
  .link_btn{
     background-color: var(--mvpYellow);
-    padding: 15px 25px ;
-    font-size: .8rem;
-    font-weight: 700;
+    padding: 20px 20px ;
+    /* border-radius: 20px; */
+ border-radius: 0px 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+   
     cursor: pointer;
     color: var(--fontColor);
     text-decoration: none;
@@ -189,13 +156,8 @@ transition: .5s ease;
  .link_btn:hover{
     color: var(--fontColor) !important; 
  }
-.projects{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content:space-around ; */
-    padding-bottom: 5rem;
-}
-.side2{
+
+/* .side2{
     display: flex;
 flex-direction: column;
   padding-top: 6rem;
@@ -206,10 +168,10 @@ flex-direction: column;
 display: flex;
 width: 100%;
 flex-direction: column;
-/* flex-wrap: wrap; */
+flex-wrap: wrap;
 justify-content: center;
   
-}
+} */
 
 /* .demo-preview { margin-top: 60px; }
 .demo-preview .filter-navigation { width: 100%; text-align: center; margin-bottom: 60px; }
@@ -233,3 +195,75 @@ justify-content: center;
 
 .demo-preview .thumb-title h4 { text-transform: capitalize; position: relative; display: inline-block; font-size: 20px; font-family: Poppins, sans-serif; }
 .demo-preview .thumb-title h4::after { content: ""; position: absolute; bottom: -6px; right: 0px; width: 0px; height: 3px; border-radius: 6px; background-color: rgb(33, 52, 66); transition: all 0.5s ease 0s; } */
+
+
+
+
+.collage{
+    max-width: 1000px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,);
+
+}
+.image_box_grid1{
+    grid-column: 1/4 ;
+}
+.image_box_grid2{
+    grid-row: 2/3;
+    grid-column: 4/6 ;
+}
+.image_box_grid3{
+    grid-column: 1/3 ;
+}
+.image_box_grid4{
+    grid-row: 2/3;
+    grid-column: 3/6 ;
+}
+.image_collage{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.veiw img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+.collage_img1{
+    /* width: 600px; */
+    height: 400px;
+    margin-bottom: 2rem;
+    transition: 0.5s;
+}
+.collage_img2{
+    /* width: 600px; */
+    height: 300px;
+}
+.collage_img3{
+    /* width: 300px; */
+    height: 500px;
+    margin-bottom: 2rem;
+}
+.collage_img4{
+    /* width: 300px; */
+    height: 200px;
+}
+@media screen and (max-width: 1000px) {
+    .collage_img1{
+        height: 400px;
+    }
+    .collage_img2{
+
+        height: 400px;
+    }
+    .collage_img3{
+        height: 400px;
+    }
+    .collage_img4{
+        height: 400px;
+    }
+   
+}

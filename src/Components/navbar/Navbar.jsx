@@ -9,10 +9,10 @@ const Menu = () => {
   return (
     <>
       <ul>
-        <li> Services</li>
-        <li> Projects</li>
-        <li> About</li>
-        <li ><span className="contact_btn"> Contact Us</span></li>
+        <li>  SERVICES</li>
+        <li> PROJECTS</li>
+        <li>  ABOUT</li>
+        <li ><span className="contact_btn"> CONTACT US</span></li>
       </ul>
     </>
   );
@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <>
       <div className={color ? "nav_border nav_color" : "nav_border"}>
-        <Container>
+        <Container fluid>
           <div className="navbar">
             <div className="navbar__links">
               <div className="navbar__logo"> 
@@ -49,13 +49,13 @@ const Navbar = () => {
                 <div className="navbar__mobile_menu">
                   {toggleMenu ? (
                     <RiCloseLine
-                      color="#fff"
+                      color="#f4dd4b"
                       className="toggle"
                       onClick={() => setToggleMenu(false)}
                     />
                   ) : (
                     <RiMenu3Line
-                      color="#fff"
+                    color="#f4dd4b"
                       className="toggle"
                       onClick={() => setToggleMenu(true)}
                     />
